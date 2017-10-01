@@ -1,4 +1,4 @@
-from yourapplication import app, socketio
+from app import app, socketio
 from flask import render_template
 from flask_socketio import emit
 #from sensors import Sensors, t1
