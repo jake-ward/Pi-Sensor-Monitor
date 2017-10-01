@@ -4,7 +4,7 @@ setup(
 	name='Pi-Sensor-Monitor',
 	description='Sample project',
 	author='Jake Ward',
-	packages=['app'],
+	packages=['Pi-Sensor-Monitor'],
 	install_requires=[
 		'flask',
 	],

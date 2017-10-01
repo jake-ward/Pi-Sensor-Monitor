@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
 	namespace = '/';
 
-	var socket = io.connect('http://192.168.0.13:5000' + namespace);
+	var socket = io.connect('http://192.168.0.34:5000' + namespace);
 
 	socket.on('connect', function() {
 		console.log('Connection Established!');
