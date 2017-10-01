@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-	name='yourapplication',
+	name='Pi-Sensor-Monitor',
 	description='Sample project',
 	author='Jake Ward',
-	packages=['yourapplication'],
+	packages=['app'],
 	install_requires=[
 		'flask',
 	],
