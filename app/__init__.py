@@ -10,4 +10,4 @@ app.config.from_object('config.DevelopmentConfig')
 socketio = SocketIO(app)
 
 
-import yourapplication.views
+import app.views
